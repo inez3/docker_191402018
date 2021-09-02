@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+* {
+    text-decoration: none;
+}
+
+header {
+   display: inline;
+}
+.jumbotron {
+   font-size: 20px;
+   padding: 50px;
+   background-color: #2C2E43;
+   text-align: center;
+   color: #FFD523;
+}
+
+body {
+    font-family: 'Quicksand',sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.cover {
+    width: 1100px;
+    margin: auto;
+}
+
+.logo a {
+    float: left;
+    font-size: 30px;
+    font-weight: 800;
+    color: #595260;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px; 
+    top: 0;
+    background: #FFFFFF;
+    z-index: 1;
+    border-bottom:1px solid #2C2E43;
+    position: sticky;
+    position: -webkit-sticky;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: #595260;
+    text-align: center;
+    text-decoration: none;
+    padding: 0px 16px 0px 16px;
+   
+}
+
+nav ul li a:hover {
+    font-weight: bold;
+}
+
+article {
+    margin: auto;
+    margin-bottom: 50px;
+    display: flex;
+}
+
+.card {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.card .deskripsi {
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    font-size: 40px;
+    color: #FFD523;
+}
+
+a.button {
+    background: #595260;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.button:hover {
+    background: #FFD523;
+    text-decoration: none;
+}
+
+main{
+    overflow: auto;
+}
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.center {
+    text-align: center;
+    width: 100%;
+}
+
+.container {
+           display: flex;
+           width: 850px;
+           height: 650px;
+           background-color: white;
+           padding: 20px;
+           border-radius: 10px;
+           margin: 0 auto;
+       }
+.box {
+           flex-grow: 1;
+           background-color: #E1E8EB;
+           margin: 5px;
+           border-radius: 5px;
+       }
+
+.box img {
+    width: 80%;
+    border-radius: 50%;
+}
+p.button {
+    background: #E8E46E;
+    border-radius: 20px;
+    margin-top: 0;
+    padding: 10px 5px;
+    color: black ;
+    cursor: pointer;
+    font-weight: bold;
+}
+.box:hover {
+            font-weight: bold;
+            box-shadow: 7px 7px 10px #FFD523 ;
+        }
+
+.kontak {
+
+}
+
+.biodata {
+           display: flex;
+           width: 400px;
+           height:650px;
+           background-color: white;
+           padding: 20px;
+           border-radius: 10px;
+           margin: 0 auto;
+}
+
+.tampilan{
+   width: 100%;
+   overflow: hidden;
+  }
+.inside{
+   width: 80%;
+   height: 100%;
+   margin: auto;
+   overflow: hidden;
+  }
+.inside_pic{
+   width: 25%; 
+   float: left;  
+  }
+.inside2{
+   width: 400%;
+   
+  }
+  
+
+@media screen and (max-width: 1000px) {
+    .cover {
+        width: 90%;
+    }
+    .jumbotron {
+        width: 89,5%;
+    }
+    .biodata {
+        display: block;
+        width: 60%;
+        text-align: center;
+        margin: auto;
+    }
+    .box {
+        width: 100%;
+    }
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .menu {
+        width: 100%;
+        margin: 0;
+    }
+    .container {
+        width: 95%;
+        margin: auto;
+    }
+
+    article img {
+        width: 100%;
+        display: block;
+        height: auto;
+    }
+
+
+}
+
